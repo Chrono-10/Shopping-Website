@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="styles/Shop Now style.css" />
+</head>
+<body>
+    <nav class="TopNav">
+        <div class="SocialLinks">
+            <a href="https://www.instagram.com"><img src="Assests Exam/Instagram.png" alt="www.instagram.com" width="40" height="40" /></a>
+            <a href="https://www.twitter.com"><img src="Assests Exam/Twitter.png" alt="www.twitter.com" width="40" height="40" /></a>
+            <a href="https://www.facebook.com"><img src="Assests Exam/facebook.png" alt="www.facebook.com" width="40" height="40" /></a>
+        </div>
+        <p><span id="Inkwali">Inkwali</span><img src="Assests Exam/Rhino.png" alt="Rhino.png" id="Rhino" /><span id="Yenkosi">Yenkosi</span></p>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About the Leather</a>
+            <a href="#">DIY Methods</a>
+            <a href="#">Brick & Mortar</a>
+            <a href="Shop Now.html">Shop Now</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </nav>
+    <div class="Shop">
+        <h1>Shop Now!</h1>
+        <section class="products">
+            <div class="card">
+                <img src="Assests Exam/5.jpg" alt="BILLY J SPORT SUEDE LEATHER">
+                <h3>BILLY J SPORT SUEDE LEATHER</h3>
+                <p>Rebels never die.</p>
+                <p class="price">R3800.00</p>
+                <p><button id="addCart1"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div class="card">
+                <img src="Assests Exam/8.jpg" alt="BILLY SNUFF 2 TONE LEATHER">
+                <h3>BILLY SNUFF 2 TONE LEATHER</h3>
+                <p>Rebels never die.</p>
+                <p class="price">R4200.00</p>
+                <p><button id="addCart2"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div class="card">
+                <img src="Assests Exam/7.jpg" alt="BJ CLASSIC LEATHER">
+                <h3>BJ CLASSIC LEATHER</h3>
+                <p>Rebels never die.</p>
+                <p class="price">R3000.00</p>
+                <p><button id="addCart3"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div class="card">
+                <img src="Assests Exam/4.jpg" alt="BJ SPORT LEATHER JACKET">
+                <h3>BJ SPORT LEATHER JACKET</h3>
+                <p>Rebels never die.</p>
+                <p class="price">R3500.00</p>
+                <p><button id="addCart4"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div class="card">
+                <img src="Assests Exam/9.jpg" alt="BLACK BJ LEATHER JACKET">
+                <h3>BLACK BJ LEATHER JACKET</h3>
+                <p>Rebels never die.</p>
+                <p class="price">R4000.00</p>
+                <p><button id="addCart5"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div class="card">
+                <img src="Assests Exam/1.10.jpg" alt="CHOC LEATHER BAG">
+                <h3>CHOC LEATHER BAG</h3>
+                <p>Rebels never die.</p>
+                <p class="price">R3850.00</p>
+                <p><button id="addCart6"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div class="card">
+                <img src="Assests Exam/1.11.jpg" alt="BROWN LEATHER BAG">
+                <h3>BROWN LEATHER BAG</h3>
+                <p>Rebels never die.</p>
+                <p class="price"><span>R3000.00</span> R2775.00</p>
+                <p><button id="addCart7"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div class="card">
+                <img src="Assests Exam/26.jpg" alt="SA BIKER JACKET">
+                <h3>SA BIKER JACKET</h3>
+                <p>Rebels never die.</p>
+                <p class="price">R3950.00</p>
+                <p><button id="addCart8"><img src="Assests Exam/Trolley.png" /></button></p>
+            </div>
+            <div id="myModal1" class="modal">
+                <div class="modal-content">
+                    <span id="span1" class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>BILLY J SPORT SUEDE LEATHER</label>
+                        <input type="hidden" id="a" value="3800.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal2" class="modal">
+                <div class="modal-content">
+                    <span id="span2" class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>BILLY SNUFF 2 TONE LEATHER</label>
+                        <input type="hidden" id="a" value="4200.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal3" class="modal">
+                <div class="modal-content">
+                    <span id="span3" class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>BJ CLASSIC LEATHER</label>
+                        <input type="hidden" id="a" value="3000.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal4" class="modal">
+                <div class="modal-content">
+                    <span id="span4" class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>BJ SPORT LEATHER JACKET</label>
+                        <input type="hidden" id="a" value="3500.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal5" class="modal">
+                <div id="span5" class="modal-content">
+                    <span class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>BLACK BJ LEATHER JACKET</label>
+                        <input type="hidden" id="a" value="4000.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal6" class="modal">
+                <div id="span6" class="modal-content">
+                    <span class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>CHOC LEATHER BAG</label>
+                        <input type="hidden" id="a" value="3850.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal7" class="modal">
+                <div class="modal-content">
+                    <span id="span7" class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>BROWN LEATHER BAG</label>
+                        <input type="hidden" id="a" value="2775.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal8" class="modal">
+                <div class="modal-content">
+                    <span id="span8" class="close">&times;</span>
+                    <form oninput="x.value = parseFloat(a.value) * parseFloat(b.value); y.value = parseFloat(a.value) * parseFloat(b.value)" action="Checkout.html">
+                        <label>SA BIKER JACKET</label>
+                        <input type="hidden" id="a" value="3950.00">
+                        <input type="number" id="b" value="1">
+                        <span id="remove" class="close">&times;</span>
+                        <div id="rand">
+                            R
+                            <output name="x" for="a b"></output>
+                        </div>
+                        <b>Subtotal: R<output name="y" for="a b"></output></b>
+                        <button id="CObutton">Check out</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <img src="Assests Exam/LOgo.jpg" alt="LOgo.jpg" />
+            <p class="copyright">This website was designed by Curt Coetzee 9710 and ALL copyrights are reserved</p>
+            <p>_______</p>
+            <div class="FLinks">
+                <a href="#">DIY</a>
+                <a href="#">About</a>
+                <a href="#">Home</a>
+                <a href="#">Brick & Mortar</a>
+                <a href="Shop Now.html"> Shop Now</a>
+            </div>
+            <section id="usrform">
+                Join Our Newsletter Team! <input type="text" name="usrname" value="example@gmail.com">
+                <button id="join">Join</button>
+            </section>
+            <div id="myMessage" class="message">
+                <div class="message-content">
+                    <span class="closes">&times;</span>
+                    <p>Thank you for joining our news letter!</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/Shop Now script.js" type="text/javascript"></script>
+</body>
+</html>

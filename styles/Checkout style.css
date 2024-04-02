@@ -1,0 +1,207 @@
+﻿body {
+    font-family: 'Humanst521 Lt BT';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.TopNav {
+    background-color: black;
+    overflow: hidden;
+    color: #f2f2f2;
+    font-family: BeteNoirA;
+    position: relative;
+}
+
+.SocialLinks a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.SocialLinks a:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.TopNav p {
+    text-align: center;
+    height: 0;
+}
+
+.TopNav span {
+    font-size: 28px;
+    position: relative;
+    bottom: 97px
+}
+
+#Rhino {
+    position: relative;
+    bottom: 65px;
+    right: 154px;
+}
+
+#Inkwali {
+    position: relative;
+    right: 124px;
+}
+
+#Yenkosi {
+    position: relative;
+    right: 167px;
+}
+
+.sidepanel {
+    height: 250px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    float: right;
+    position: inherit;
+    bottom: 17px;
+    right: 8px;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.topForm {
+    text-align:center;
+}
+
+.userForm {
+    text-align:center;
+}
+
+#form1 {
+    display: inline-block;
+    width: 75%;
+    background-color: #f4f7f8;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#form1 input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    background-color: #e8eeef;
+    color: #81809d;
+}
+
+#form1 select {
+    width: 1045px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    background-color: #e8eeef;
+    color: #81809d;
+}
+
+#form1 textarea {
+    width: 1027px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    background-color: #e8eeef;
+    color: #81809d;
+}
+
+#form1 label {
+    position: absolute;
+    left: 240px;
+}
+
+h3 {
+    position:relative;
+    right:440px;
+}
+
+h3 img {
+    border-radius: 50px 50px 50px 0px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    background-color: #f4f7f8;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 0px;
+    width: 89%;
+    position: absolute;
+    right: 0;
+    left: -51px;
+    bottom: -88%;
+}
+
+.button1 {
+    width:98%;
+    height:40px;
+    color:white;
+    background-color:black;
+    font-size:16px;
+}
+
+#TC {
+    position: relative;
+    left: 10px;
+    top: -13px;
+    text-align: left;
+}
+
+#tickBox label {
+    position: relative;
+    left: 0;
+}
+
+#tickBox input {
+    width: 12px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    background-color: #e8eeef;
+    color: #81809d;
+}
